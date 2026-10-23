@@ -1,0 +1,6 @@
+const prompt = require('prompt-sync')({sigint:true})
+let r1 = Number(prompt('Jumlah siswa X RPL 1 : '))
+let r2 = Number(prompt('Jumlah siswa X RPL 2 : '))
+let t1 = Number(prompt('Jumlah siswa X TKJ 1 : '))
+let t2 = Number(prompt('Jumlah siswa X TKJ 2 : '))
+console.log(`Jumlah Seluruh siswa : ${r1 + r2 + t1 +r2}`)

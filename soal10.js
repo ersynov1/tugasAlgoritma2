@@ -1,0 +1,5 @@
+const prompt = require ('prompt-sync')({sigint:true})
+let jb = prompt('Judul Buku        : ')
+let pn = prompt('Penerbit          : ')
+let jk = prompt('Jumlah Buku       : ')
+let tb = prompt('Tanggal Pembelian : ')
